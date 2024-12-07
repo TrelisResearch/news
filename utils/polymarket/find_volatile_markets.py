@@ -1,9 +1,18 @@
 from typing import Dict, List
-from get_markets import get_open_markets
-from get_price_history import get_price_history
+from .get_markets import get_open_markets
+from .get_price_history import get_price_history
 import json
 from datetime import datetime
 import os
+import sys
+from pathlib import Path
+
+# Add the project root to Python path
+project_root = str(Path(__file__).parent.parent.parent)
+sys.path.append(project_root)
+
+# Now we can import from utils
+from utils.perplexity.test_perplexity import query_perplexity
 
 def calculate_max_return(prices: List[float]) -> float:
     """Calculate maximum possible return given a price series.
@@ -27,7 +36,7 @@ def calculate_max_return(prices: List[float]) -> float:
     return max_return
 
 def save_volatile_markets_data(volatile_markets: List[Dict], histories: Dict[str, List]) -> None:
-    """Save detailed data about volatile markets to a JSON file.
+    """Save detailed data about volatile markets to a JSON file, including news from Perplexity.
     
     Args:
         volatile_markets: List of volatile market data
@@ -41,9 +50,10 @@ def save_volatile_markets_data(volatile_markets: List[Dict], histories: Dict[str
     
     detailed_markets = []
     for market in volatile_markets:
-        token_ids = market['token_ids']
-        yes_history = histories.get(token_ids[0], [])
-        no_history = histories.get(token_ids[1], [])
+        print(f"\nFetching news for market: {market['question'][:100]}...")
+        
+        # Query Perplexity for news about this market
+        news_data = query_perplexity(market['question'])
         
         detailed_market = {
             'question': market['question'],
@@ -54,25 +64,26 @@ def save_volatile_markets_data(volatile_markets: List[Dict], histories: Dict[str
                 'min': market['min_price'],
                 'max': market['max_price']
             },
+            'news': news_data if news_data else {},  # Add news data
             'token_data': {
                 'yes': {
-                    'token_id': token_ids[0],
+                    'token_id': market['token_ids'][0],
                     'price_history': [
                         {
                             'timestamp': point['t'],
                             'price': float(point['p'])
                         }
-                        for point in yes_history
+                        for point in histories.get(market['token_ids'][0], [])
                     ]
                 },
                 'no': {
-                    'token_id': token_ids[1],
+                    'token_id': market['token_ids'][1],
                     'price_history': [
                         {
                             'timestamp': point['t'],
                             'price': float(point['p'])
                         }
-                        for point in no_history
+                        for point in histories.get(market['token_ids'][1], [])
                     ]
                 }
             }
@@ -85,11 +96,11 @@ def save_volatile_markets_data(volatile_markets: List[Dict], histories: Dict[str
             'markets': detailed_markets
         }, f, indent=2)
     
-    print(f"\nSaved detailed market data to {filename}")
+    print(f"\nSaved detailed market data with news to {filename}")
 
-def find_volatile_markets(market_limit: int = 50, 
+def find_volatile_markets(market_limit: int = 10, 
                          days: int = 7, 
-                         top_volatile: int = 10) -> List[Dict]:
+                         top_volatile: int =5) -> List[Dict]:
     """Find most volatile markets by analyzing price history.
     
     Args:
