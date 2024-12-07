@@ -13,7 +13,7 @@ from utils.elevenlabs.generate_audio import generate_audio, play_audio
 from datetime import datetime
 import os
 
-def generate_market_news(market_limit: int = 25, days: int = 7, top_volatile: int = 3, play_audio_file: bool = True):
+def generate_market_news(market_limit: int = 50, days: int = 7, top_volatile: int = 3, play_audio_file: bool = True):
     """
     Generate a complete news broadcast script from Polymarket data and convert it to audio
     

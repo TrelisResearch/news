@@ -1,6 +1,7 @@
 import os
 import anthropic
 from dotenv import load_dotenv
+from datetime import datetime
 
 load_dotenv()
 
@@ -28,28 +29,38 @@ def generate_news_transcript(market_report: str) -> str:
        - Lead with the most significant market movement
        - Cover two additional noteworthy markets
        - For each market, mention:
-         * Current probability of the event occurring
-         * How that probability changed over the past week
-         * Brief context for the movement
+         * The exact probability change over the week (e.g., "from 35% to 42%")
+         * Brief context for why this movement occurred
     3. Quick wrap-up (10 seconds)
     
     Guidelines:
     - Be concise and direct
-    - Express everything as simple probabilities (e.g., "The probability of X happening increased from 25% to 40% this week")
+    - Always mention specific probability changes
     - Never mention YES/NO tokens - only discuss probabilities of events occurring
     - Use clear, professional language
-    - Avoid terms like "dive", "delve", or "deep dive"
     - Keep the tone measured and factual
-    - Avoid vague language like "waiting to unfold" or "remains to be seen"
     - Focus on concrete probability changes and their implications
     
     Important:
     - Start directly with the news content
-    - Do not include any meta text or prefixes like "Here's the market analysis..."
+    - Do not include any meta text or prefixes
     - Do not include any speaker attributions or dialogue markers
     - Keep the entire script to approximately 150-175 words"""
     
     try:
+        # Save the prompt and market report
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        prompt_dir = "market_data/prompts"
+        os.makedirs(prompt_dir, exist_ok=True)
+        
+        with open(f"{prompt_dir}/claude_prompt_{timestamp}.txt", 'w') as f:
+            f.write("SYSTEM PROMPT:\n")
+            f.write("=============\n")
+            f.write(system_prompt)
+            f.write("\n\nMARKET REPORT:\n")
+            f.write("=============\n")
+            f.write(market_report)
+        
         message = client.messages.create(
             model="claude-3-5-haiku-20241022",
             max_tokens=2000,
@@ -62,6 +73,10 @@ def generate_news_transcript(market_report: str) -> str:
                 }
             ]
         )
+        
+        # Save Claude's response
+        with open(f"{prompt_dir}/claude_response_{timestamp}.txt", 'w') as f:
+            f.write(message.content[0].text)
         
         # Remove any potential prefix text
         transcript = message.content[0].text

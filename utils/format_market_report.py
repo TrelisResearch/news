@@ -8,62 +8,64 @@ def load_market_data(filename: str) -> Dict:
     with open(filename, 'r') as f:
         return json.load(f)
 
-def format_price_history(price_history: List[Dict]) -> str:
-    """Format price history into a readable summary."""
+def format_price_history(price_history: List[Dict]) -> tuple:
+    """Format price history into a readable summary and return start/end prices."""
     if not price_history:
-        return "No price history available"
+        return "No price history available", None, None
     
     # Convert timestamps to dates and sort
     dated_prices = [(datetime.fromtimestamp(p['timestamp']).strftime('%Y-%m-%d'), p['price']) 
                    for p in price_history]
     dated_prices.sort(key=lambda x: x[0])
     
-    # Get first, last, highest, and lowest prices
+    # Get first and last prices
     first_price = dated_prices[0]
     last_price = dated_prices[-1]
-    highest_price = max(dated_prices, key=lambda x: x[1])
-    lowest_price = min(dated_prices, key=lambda x: x[1])
     
-    return (f"Price movement from ${first_price[1]:.3f} on {first_price[0]} "
-            f"to ${last_price[1]:.3f} on {last_price[0]}.\n"
-            f"Highest: ${highest_price[1]:.3f} on {highest_price[0]}\n"
-            f"Lowest: ${lowest_price[1]:.3f} on {lowest_price[0]}")
+    summary = (f"Price moved from ${first_price[1]:.3f} to ${last_price[1]:.3f} "
+              f"between {first_price[0]} and {last_price[0]}")
+    
+    return summary, first_price[1], last_price[1]
 
 def format_market_report(market_data: Dict) -> str:
-    """Format a single market's data into a structured report."""
-    market = market_data['markets'][0]  # Assuming we're looking at the most volatile market
-    
-    report = f"""
-MARKET ANALYSIS REPORT
+    """Format multiple markets' data into a structured report."""
+    report = f"""MARKET ANALYSIS REPORT
 Generated: {market_data['timestamp']}
 
-MARKET QUESTION:
+TOP VOLATILE MARKETS THIS WEEK:
+"""
+    
+    for i, market in enumerate(market_data['markets'], 1):
+        yes_prices = market['daily_prices']['yes']
+        no_prices = market['daily_prices']['no']
+        
+        report += f"""
+MARKET {i}:
 {market['question']}
 
 MARKET METRICS:
 - Total Trading Volume: ${market['volume']:,.2f}
 - 24h Trading Volume: ${market['volume_24h']:,.2f}
-- Maximum Return Opportunity: {market['max_return']*100:.1f}%
-- Price Range: ${market['price_range']['min']:.3f} to ${market['price_range']['max']:.3f}
 
-PRICE HISTORY:
-YES Token ({market['token_data']['yes']['token_id']}):
-{format_price_history(market['token_data']['yes']['price_history'])}
-
-NO Token ({market['token_data']['no']['token_id']}):
-{format_price_history(market['token_data']['no']['price_history'])}
-
+DAILY PROBABILITIES (last 7 days):
+"""
+        # Add daily probabilities
+        for yes, no in zip(yes_prices, no_prices):
+            report += f"{yes['date']}: {yes['price']*100:.1f}%\n"
+        
+        report += f"""
 RECENT NEWS:
 {market['news'].get('content', 'No news available')}
 
 NEWS SOURCES:
 """
-    
-    if market['news'].get('citations'):
-        for citation in market['news']['citations']:
-            report += f"- {citation}\n"
-    else:
-        report += "No citations available\n"
+        if market['news'].get('citations'):
+            for citation in market['news']['citations']:
+                report += f"- {citation}\n"
+        else:
+            report += "No citations available\n"
+        
+        report += "\n" + "="*80 + "\n"
     
     return report
 
