@@ -1,11 +1,10 @@
-# Prediction Market Based News
+# The Weekly News (Prediction Market Based News)
 
 Premise = Use polymarket prices to generate news.
 
 Inspiration: Packy McCormack's [Not Boring News](https://www.notboring.co/p/introducing-boring-news)
 
-## Minimal Build - Weekly News
-Functionality:
+Approach:
 A. Data Preparation: Gets "interesting" markets from polymarket.
   1. Fetch markets from polymarket.
   2. Sort markets according to size. (Filter out all markets below a threshold size).
