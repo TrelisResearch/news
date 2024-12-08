@@ -2,6 +2,8 @@
 
 Generates news reports based on Polymarket prediction market data, converting market movements into professional news broadcasts with audio.
 
+Check the generated_audio/ directory for the output audio files.
+
 ## Setup
 
 1. **Install Dependencies**:
