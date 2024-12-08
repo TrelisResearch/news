@@ -1,0 +1,54 @@
+{
+  "segments": [
+    {
+      "start": "00:00:00.000",
+      "end": "00:00:08.340",
+      "text": "This week in prediction markets, we're seeing some fascinating shifts across technology, legislation, and space exploration.",
+      "image_searches": [
+        "prediction market data visualization",
+        "technology innovation infographic",
+        "futuristic digital dashboard"
+      ]
+    },
+    {
+      "start": "00:00:09.240",
+      "end": "00:00:29.000",
+      "text": "Our top story involves potential US legislation on deep fake content. The probability of banning deep fake news has steadily climbed from just 0.7% to 5.9% over the past week, signaling growing legislative momentum around digital consent and personal protection.",
+      "image_searches": [
+        "digital manipulation warning graphic",
+        "artificial intelligence legal document",
+        "cybersecurity privacy concept image"
+      ]
+    },
+    {
+      "start": "00:00:29.720",
+      "end": "00:00:49.220",
+      "text": "In corporate drama, Adam Newman's WeWork buyback chances have dramatically fluctuated, dropping from 11.6% to a current, 4.8%. A bankruptcy judge's rejection of his purchase bid has essentially eliminated his prospects of reclaiming the company he once led.",
+      "image_searches": [
+        "corporate bankruptcy courtroom",
+        "business negotiation meeting",
+        "startup founder silhouette"
+      ]
+    },
+    {
+      "start": "00:00:50.020",
+      "end": "00:01:09.040",
+      "text": "Our final highlight is SpaceX's Starship Launch Predictions. While the market remains volatile, hovering between 1.4% and 3.5% this week, recent successful test flights suggest increasing confidence in multiple space missions.",
+      "image_searches": [
+        "SpaceX rocket launch",
+        "space technology prediction chart",
+        "futuristic spacecraft rendering"
+      ]
+    },
+    {
+      "start": "00:01:09.900",
+      "end": "00:01:20.560",
+      "text": "These markets demonstrate how quickly public sentiment and technological landscapes can shift, reflecting the dynamic nature of our rapidly changing world.",
+      "image_searches": [
+        "global technology network map",
+        "dynamic market movement graph",
+        "innovation and change concept image"
+      ]
+    }
+  ]
+}

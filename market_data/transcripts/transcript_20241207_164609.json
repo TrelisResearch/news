@@ -1,0 +1,1395 @@
+{
+  "text": " This week in prediction markets, we're seeing some fascinating shifts across technology, legislation, and space exploration. Our top story involves potential US legislation on deep fake content. The probability of banning deep fake news has steadily climbed from just 0.7% to 5.9% over the past week, signaling growing legislative momentum around digital consent and personal protection. In corporate drama, Adam Newman's WeWork buyback chances have dramatically fluctuated, dropping from 11.6% to a current, 4.8%. A bankruptcy judge's rejection of his purchase bid has essentially eliminated his prospects of reclaiming the company he once led. Our final highlight is SpaceX's Starship Launch Predictions. While the market remains volatile, hovering between 1.4% and 3.5% this week, recent successful test flights suggest increasing confidence in multiple space missions. These markets demonstrate how quickly public sentiment and technological landscapes can shift, reflecting the dynamic nature of our rapidly changing world.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.32,
+      "text": " This week in prediction markets, we're seeing some fascinating shifts across technology,",
+      "tokens": [
+        50364,
+        639,
+        1243,
+        294,
+        17630,
+        8383,
+        11,
+        321,
+        434,
+        2577,
+        512,
+        10343,
+        19201,
+        2108,
+        2899,
+        11,
+        50652
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22645757338579964,
+      "compression_ratio": 1.5296442687747036,
+      "no_speech_prob": 0.005931494291871786,
+      "words": [
+        {
+          "word": " This",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.7864108681678772
+        },
+        {
+          "word": " week",
+          "start": 0.34,
+          "end": 0.68,
+          "probability": 0.9953124523162842
+        },
+        {
+          "word": " in",
+          "start": 0.68,
+          "end": 0.88,
+          "probability": 0.5841493010520935
+        },
+        {
+          "word": " prediction",
+          "start": 0.88,
+          "end": 1.24,
+          "probability": 0.9571380019187927
+        },
+        {
+          "word": " markets,",
+          "start": 1.24,
+          "end": 1.9,
+          "probability": 0.9951890707015991
+        },
+        {
+          "word": " we're",
+          "start": 2.24,
+          "end": 2.34,
+          "probability": 0.9524086713790894
+        },
+        {
+          "word": " seeing",
+          "start": 2.34,
+          "end": 2.64,
+          "probability": 0.9991627931594849
+        },
+        {
+          "word": " some",
+          "start": 2.64,
+          "end": 3.14,
+          "probability": 0.9969571828842163
+        },
+        {
+          "word": " fascinating",
+          "start": 3.14,
+          "end": 3.5,
+          "probability": 0.9853691458702087
+        },
+        {
+          "word": " shifts",
+          "start": 3.5,
+          "end": 4.14,
+          "probability": 0.9822973012924194
+        },
+        {
+          "word": " across",
+          "start": 4.14,
+          "end": 4.58,
+          "probability": 0.9945347309112549
+        },
+        {
+          "word": " technology,",
+          "start": 4.58,
+          "end": 5.32,
+          "probability": 0.9929551482200623
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.88,
+      "end": 8.34,
+      "text": " legislation, and space exploration.",
+      "tokens": [
+        50652,
+        11329,
+        11,
+        293,
+        1901,
+        16197,
+        13,
+        50826
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22645757338579964,
+      "compression_ratio": 1.5296442687747036,
+      "no_speech_prob": 0.005931494291871786,
+      "words": [
+        {
+          "word": " legislation,",
+          "start": 5.88,
+          "end": 6.42,
+          "probability": 0.9960741996765137
+        },
+        {
+          "word": " and",
+          "start": 7.1,
+          "end": 7.26,
+          "probability": 0.9988353848457336
+        },
+        {
+          "word": " space",
+          "start": 7.26,
+          "end": 7.58,
+          "probability": 0.9933550357818604
+        },
+        {
+          "word": " exploration.",
+          "start": 7.58,
+          "end": 8.34,
+          "probability": 0.9984012246131897
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9.24,
+      "end": 14.68,
+      "text": " Our top story involves potential US legislation on deep fake content.",
+      "tokens": [
+        50826,
+        2621,
+        1192,
+        1657,
+        11626,
+        3995,
+        2546,
+        11329,
+        322,
+        2452,
+        7592,
+        2701,
+        13,
+        51136
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22645757338579964,
+      "compression_ratio": 1.5296442687747036,
+      "no_speech_prob": 0.005931494291871786,
+      "words": [
+        {
+          "word": " Our",
+          "start": 9.24,
+          "end": 9.56,
+          "probability": 0.9951550960540771
+        },
+        {
+          "word": " top",
+          "start": 9.56,
+          "end": 9.98,
+          "probability": 0.9891747236251831
+        },
+        {
+          "word": " story",
+          "start": 9.98,
+          "end": 10.46,
+          "probability": 0.8379732370376587
+        },
+        {
+          "word": " involves",
+          "start": 10.46,
+          "end": 10.98,
+          "probability": 0.9969557523727417
+        },
+        {
+          "word": " potential",
+          "start": 10.98,
+          "end": 11.68,
+          "probability": 0.9943314790725708
+        },
+        {
+          "word": " US",
+          "start": 11.68,
+          "end": 12.18,
+          "probability": 0.6336321830749512
+        },
+        {
+          "word": " legislation",
+          "start": 12.18,
+          "end": 12.76,
+          "probability": 0.9946691393852234
+        },
+        {
+          "word": " on",
+          "start": 12.76,
+          "end": 13.4,
+          "probability": 0.9956479668617249
+        },
+        {
+          "word": " deep",
+          "start": 13.4,
+          "end": 13.66,
+          "probability": 0.9687333703041077
+        },
+        {
+          "word": " fake",
+          "start": 13.66,
+          "end": 14.0,
+          "probability": 0.7440454959869385
+        },
+        {
+          "word": " content.",
+          "start": 14.0,
+          "end": 14.68,
+          "probability": 0.9981555342674255
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 15.46,
+      "end": 22.68,
+      "text": " The probability of banning deep fake news has steadily climbed from just 0.7% to 5.9%",
+      "tokens": [
+        51136,
+        440,
+        8482,
+        295,
+        5643,
+        773,
+        2452,
+        7592,
+        2583,
+        575,
+        36129,
+        28691,
+        490,
+        445,
+        1958,
+        13,
+        22,
+        4,
+        281,
+        1025,
+        13,
+        24,
+        4,
+        51490
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22645757338579964,
+      "compression_ratio": 1.5296442687747036,
+      "no_speech_prob": 0.005931494291871786,
+      "words": [
+        {
+          "word": " The",
+          "start": 15.46,
+          "end": 15.62,
+          "probability": 0.9935278296470642
+        },
+        {
+          "word": " probability",
+          "start": 15.62,
+          "end": 16.12,
+          "probability": 0.9823340177536011
+        },
+        {
+          "word": " of",
+          "start": 16.12,
+          "end": 16.56,
+          "probability": 0.998969554901123
+        },
+        {
+          "word": " banning",
+          "start": 16.56,
+          "end": 17.0,
+          "probability": 0.9597430229187012
+        },
+        {
+          "word": " deep",
+          "start": 17.0,
+          "end": 17.3,
+          "probability": 0.98985755443573
+        },
+        {
+          "word": " fake",
+          "start": 17.3,
+          "end": 17.58,
+          "probability": 0.952350914478302
+        },
+        {
+          "word": " news",
+          "start": 17.58,
+          "end": 17.98,
+          "probability": 0.5220797061920166
+        },
+        {
+          "word": " has",
+          "start": 17.98,
+          "end": 18.32,
+          "probability": 0.9979469180107117
+        },
+        {
+          "word": " steadily",
+          "start": 18.32,
+          "end": 18.74,
+          "probability": 0.9980283379554749
+        },
+        {
+          "word": " climbed",
+          "start": 18.74,
+          "end": 19.22,
+          "probability": 0.9747554659843445
+        },
+        {
+          "word": " from",
+          "start": 19.22,
+          "end": 19.54,
+          "probability": 0.9812487363815308
+        },
+        {
+          "word": " just",
+          "start": 19.54,
+          "end": 19.86,
+          "probability": 0.9959161877632141
+        },
+        {
+          "word": " 0",
+          "start": 19.86,
+          "end": 20.14,
+          "probability": 0.954007625579834
+        },
+        {
+          "word": ".7",
+          "start": 20.14,
+          "end": 20.76,
+          "probability": 0.9957926571369171
+        },
+        {
+          "word": "%",
+          "start": 20.76,
+          "end": 21.1,
+          "probability": 0.7976597547531128
+        },
+        {
+          "word": " to",
+          "start": 21.1,
+          "end": 21.32,
+          "probability": 0.9918180704116821
+        },
+        {
+          "word": " 5",
+          "start": 21.32,
+          "end": 21.64,
+          "probability": 0.9683874845504761
+        },
+        {
+          "word": ".9",
+          "start": 21.64,
+          "end": 22.26,
+          "probability": 0.9952493906021118
+        },
+        {
+          "word": "%",
+          "start": 22.26,
+          "end": 22.68,
+          "probability": 0.9808980822563171
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 22.68,
+      "end": 28.38,
+      "text": " over the past week, signaling growing legislative momentum around digital consent and personal",
+      "tokens": [
+        51490,
+        670,
+        264,
+        1791,
+        1243,
+        11,
+        38639,
+        4194,
+        21331,
+        11244,
+        926,
+        4562,
+        14546,
+        293,
+        2973,
+        51782
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22645757338579964,
+      "compression_ratio": 1.5296442687747036,
+      "no_speech_prob": 0.005931494291871786,
+      "words": [
+        {
+          "word": " over",
+          "start": 22.68,
+          "end": 22.82,
+          "probability": 0.997584342956543
+        },
+        {
+          "word": " the",
+          "start": 22.82,
+          "end": 22.98,
+          "probability": 0.9992825388908386
+        },
+        {
+          "word": " past",
+          "start": 22.98,
+          "end": 23.28,
+          "probability": 0.9955177903175354
+        },
+        {
+          "word": " week,",
+          "start": 23.28,
+          "end": 23.88,
+          "probability": 0.9986720085144043
+        },
+        {
+          "word": " signaling",
+          "start": 24.34,
+          "end": 24.56,
+          "probability": 0.9352992177009583
+        },
+        {
+          "word": " growing",
+          "start": 24.56,
+          "end": 25.1,
+          "probability": 0.9645649194717407
+        },
+        {
+          "word": " legislative",
+          "start": 25.1,
+          "end": 25.62,
+          "probability": 0.9749680161476135
+        },
+        {
+          "word": " momentum",
+          "start": 25.62,
+          "end": 26.24,
+          "probability": 0.9998348951339722
+        },
+        {
+          "word": " around",
+          "start": 26.24,
+          "end": 26.74,
+          "probability": 0.9917908906936646
+        },
+        {
+          "word": " digital",
+          "start": 26.74,
+          "end": 27.22,
+          "probability": 0.9973635077476501
+        },
+        {
+          "word": " consent",
+          "start": 27.22,
+          "end": 27.72,
+          "probability": 0.9912896156311035
+        },
+        {
+          "word": " and",
+          "start": 27.72,
+          "end": 28.02,
+          "probability": 0.9951708912849426
+        },
+        {
+          "word": " personal",
+          "start": 28.02,
+          "end": 28.38,
+          "probability": 0.9986175298690796
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 28.38,
+      "end": 29.0,
+      "text": " protection.",
+      "tokens": [
+        51782,
+        6334,
+        13,
+        51860
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22645757338579964,
+      "compression_ratio": 1.5296442687747036,
+      "no_speech_prob": 0.005931494291871786,
+      "words": [
+        {
+          "word": " protection.",
+          "start": 28.38,
+          "end": 29.0,
+          "probability": 0.9989334940910339
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2900,
+      "start": 29.72,
+      "end": 35.24,
+      "text": " In corporate drama, Adam Newman's WeWork buyback chances have dramatically fluctuated,",
+      "tokens": [
+        50400,
+        682,
+        10896,
+        9412,
+        11,
+        7938,
+        49377,
+        311,
+        492,
+        28846,
+        2256,
+        3207,
+        10486,
+        362,
+        17548,
+        23448,
+        27275,
+        11,
+        50692
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22792444473657852,
+      "compression_ratio": 1.3706896551724137,
+      "no_speech_prob": 0.005671972408890724,
+      "words": [
+        {
+          "word": " In",
+          "start": 29.560000000000002,
+          "end": 30.0,
+          "probability": 0.5369963049888611
+        },
+        {
+          "word": " corporate",
+          "start": 30.0,
+          "end": 30.44,
+          "probability": 0.9377835392951965
+        },
+        {
+          "word": " drama,",
+          "start": 30.44,
+          "end": 30.94,
+          "probability": 0.9947376847267151
+        },
+        {
+          "word": " Adam",
+          "start": 31.22,
+          "end": 31.36,
+          "probability": 0.9864908456802368
+        },
+        {
+          "word": " Newman's",
+          "start": 31.36,
+          "end": 31.98,
+          "probability": 0.7400926053524017
+        },
+        {
+          "word": " WeWork",
+          "start": 31.98,
+          "end": 32.42,
+          "probability": 0.5759988576173782
+        },
+        {
+          "word": " buyback",
+          "start": 32.42,
+          "end": 33.02,
+          "probability": 0.5765779912471771
+        },
+        {
+          "word": " chances",
+          "start": 33.02,
+          "end": 33.44,
+          "probability": 0.9633933901786804
+        },
+        {
+          "word": " have",
+          "start": 33.44,
+          "end": 33.74,
+          "probability": 0.9957838654518127
+        },
+        {
+          "word": " dramatically",
+          "start": 33.74,
+          "end": 34.28,
+          "probability": 0.9911236763000488
+        },
+        {
+          "word": " fluctuated,",
+          "start": 34.28,
+          "end": 35.24,
+          "probability": 0.9796659648418427
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2900,
+      "start": 35.7,
+      "end": 41.0,
+      "text": " dropping from 11.6% to a current, 4.8%.",
+      "tokens": [
+        50692,
+        13601,
+        490,
+        2975,
+        13,
+        21,
+        4,
+        281,
+        257,
+        2190,
+        11,
+        1017,
+        13,
+        23,
+        6856,
+        50970
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22792444473657852,
+      "compression_ratio": 1.3706896551724137,
+      "no_speech_prob": 0.005671972408890724,
+      "words": [
+        {
+          "word": " dropping",
+          "start": 35.7,
+          "end": 35.94,
+          "probability": 0.9895555377006531
+        },
+        {
+          "word": " from",
+          "start": 35.94,
+          "end": 36.32,
+          "probability": 0.9986270666122437
+        },
+        {
+          "word": " 11",
+          "start": 36.32,
+          "end": 36.58,
+          "probability": 0.8748217225074768
+        },
+        {
+          "word": ".6",
+          "start": 36.58,
+          "end": 37.34,
+          "probability": 0.9971949458122253
+        },
+        {
+          "word": "%",
+          "start": 37.34,
+          "end": 37.8,
+          "probability": 0.8127998113632202
+        },
+        {
+          "word": " to",
+          "start": 37.8,
+          "end": 38.02,
+          "probability": 0.9918951392173767
+        },
+        {
+          "word": " a",
+          "start": 38.02,
+          "end": 38.18,
+          "probability": 0.8995643854141235
+        },
+        {
+          "word": " current,",
+          "start": 38.18,
+          "end": 38.52,
+          "probability": 0.9957215785980225
+        },
+        {
+          "word": " 4",
+          "start": 38.96,
+          "end": 39.24,
+          "probability": 0.9593819975852966
+        },
+        {
+          "word": ".8%.",
+          "start": 39.24,
+          "end": 41.0,
+          "probability": 0.9691770672798157
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2900,
+      "start": 41.0,
+      "end": 46.72,
+      "text": " A bankruptcy judge's rejection of his purchase bid has essentially eliminated his prospects",
+      "tokens": [
+        50970,
+        316,
+        33457,
+        6995,
+        311,
+        26044,
+        295,
+        702,
+        8110,
+        12957,
+        575,
+        4476,
+        20308,
+        702,
+        32933,
+        51250
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22792444473657852,
+      "compression_ratio": 1.3706896551724137,
+      "no_speech_prob": 0.005671972408890724,
+      "words": [
+        {
+          "word": " A",
+          "start": 41.0,
+          "end": 41.4,
+          "probability": 0.976884663105011
+        },
+        {
+          "word": " bankruptcy",
+          "start": 41.4,
+          "end": 41.84,
+          "probability": 0.9954662322998047
+        },
+        {
+          "word": " judge's",
+          "start": 41.84,
+          "end": 42.54,
+          "probability": 0.827441543340683
+        },
+        {
+          "word": " rejection",
+          "start": 42.54,
+          "end": 42.92,
+          "probability": 0.9976409673690796
+        },
+        {
+          "word": " of",
+          "start": 42.92,
+          "end": 43.18,
+          "probability": 0.9987799525260925
+        },
+        {
+          "word": " his",
+          "start": 43.18,
+          "end": 43.44,
+          "probability": 0.9964457154273987
+        },
+        {
+          "word": " purchase",
+          "start": 43.44,
+          "end": 43.78,
+          "probability": 0.9488475918769836
+        },
+        {
+          "word": " bid",
+          "start": 43.78,
+          "end": 44.16,
+          "probability": 0.9748432636260986
+        },
+        {
+          "word": " has",
+          "start": 44.16,
+          "end": 44.5,
+          "probability": 0.9821488261222839
+        },
+        {
+          "word": " essentially",
+          "start": 44.5,
+          "end": 45.08,
+          "probability": 0.9811726212501526
+        },
+        {
+          "word": " eliminated",
+          "start": 45.08,
+          "end": 45.72,
+          "probability": 0.9865486025810242
+        },
+        {
+          "word": " his",
+          "start": 45.72,
+          "end": 46.28,
+          "probability": 0.9971913695335388
+        },
+        {
+          "word": " prospects",
+          "start": 46.28,
+          "end": 46.72,
+          "probability": 0.9858251214027405
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2900,
+      "start": 46.72,
+      "end": 49.22,
+      "text": " of reclaiming the company he once led.",
+      "tokens": [
+        51250,
+        295,
+        40074,
+        278,
+        264,
+        2237,
+        415,
+        1564,
+        4684,
+        13,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22792444473657852,
+      "compression_ratio": 1.3706896551724137,
+      "no_speech_prob": 0.005671972408890724,
+      "words": [
+        {
+          "word": " of",
+          "start": 46.72,
+          "end": 47.18,
+          "probability": 0.994297206401825
+        },
+        {
+          "word": " reclaiming",
+          "start": 47.18,
+          "end": 47.72,
+          "probability": 0.9919715523719788
+        },
+        {
+          "word": " the",
+          "start": 47.72,
+          "end": 47.9,
+          "probability": 0.997517466545105
+        },
+        {
+          "word": " company",
+          "start": 47.9,
+          "end": 48.28,
+          "probability": 0.9958851933479309
+        },
+        {
+          "word": " he",
+          "start": 48.28,
+          "end": 48.58,
+          "probability": 0.9912200570106506
+        },
+        {
+          "word": " once",
+          "start": 48.58,
+          "end": 48.82,
+          "probability": 0.5651071071624756
+        },
+        {
+          "word": " led.",
+          "start": 48.82,
+          "end": 49.22,
+          "probability": 0.9369895458221436
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2900,
+      "start": 50.02,
+      "end": 54.32,
+      "text": " Our final highlight is SpaceX's Starship Launch Predictions.",
+      "tokens": [
+        51414,
+        2621,
+        2572,
+        5078,
+        307,
+        30585,
+        311,
+        20957,
+        1210,
+        28119,
+        32969,
+        15607,
+        13,
+        51674
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22792444473657852,
+      "compression_ratio": 1.3706896551724137,
+      "no_speech_prob": 0.005671972408890724,
+      "words": [
+        {
+          "word": " Our",
+          "start": 50.02,
+          "end": 50.4,
+          "probability": 0.9501941204071045
+        },
+        {
+          "word": " final",
+          "start": 50.4,
+          "end": 50.8,
+          "probability": 0.983670711517334
+        },
+        {
+          "word": " highlight",
+          "start": 50.8,
+          "end": 51.32,
+          "probability": 0.9929647445678711
+        },
+        {
+          "word": " is",
+          "start": 51.32,
+          "end": 51.84,
+          "probability": 0.9516292214393616
+        },
+        {
+          "word": " SpaceX's",
+          "start": 51.84,
+          "end": 52.78,
+          "probability": 0.9061214625835419
+        },
+        {
+          "word": " Starship",
+          "start": 52.78,
+          "end": 53.32,
+          "probability": 0.9545775651931763
+        },
+        {
+          "word": " Launch",
+          "start": 53.32,
+          "end": 53.64,
+          "probability": 0.6690791845321655
+        },
+        {
+          "word": " Predictions.",
+          "start": 53.64,
+          "end": 54.32,
+          "probability": 0.7843227386474609
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5432,
+      "start": 55.2,
+      "end": 62.56,
+      "text": " While the market remains volatile, hovering between 1.4% and 3.5% this week,",
+      "tokens": [
+        50408,
+        3987,
+        264,
+        2142,
+        7023,
+        34377,
+        11,
+        44923,
+        1296,
+        502,
+        13,
+        19,
+        4,
+        293,
+        805,
+        13,
+        20,
+        4,
+        341,
+        1243,
+        11,
+        50786
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19917455315589905,
+      "compression_ratio": 1.4724770642201834,
+      "no_speech_prob": 0.0642758309841156,
+      "words": [
+        {
+          "word": " While",
+          "start": 55.019999999999996,
+          "end": 55.5,
+          "probability": 0.486972838640213
+        },
+        {
+          "word": " the",
+          "start": 55.5,
+          "end": 55.74,
+          "probability": 0.9954755902290344
+        },
+        {
+          "word": " market",
+          "start": 55.74,
+          "end": 56.08,
+          "probability": 0.9905300736427307
+        },
+        {
+          "word": " remains",
+          "start": 56.08,
+          "end": 56.5,
+          "probability": 0.9922480583190918
+        },
+        {
+          "word": " volatile,",
+          "start": 56.5,
+          "end": 57.24,
+          "probability": 0.9989081621170044
+        },
+        {
+          "word": " hovering",
+          "start": 57.82,
+          "end": 58.02,
+          "probability": 0.9837561845779419
+        },
+        {
+          "word": " between",
+          "start": 58.02,
+          "end": 58.56,
+          "probability": 0.9992497563362122
+        },
+        {
+          "word": " 1",
+          "start": 58.56,
+          "end": 58.92,
+          "probability": 0.9708172678947449
+        },
+        {
+          "word": ".4",
+          "start": 58.92,
+          "end": 59.58,
+          "probability": 0.9947755038738251
+        },
+        {
+          "word": "%",
+          "start": 59.58,
+          "end": 59.94,
+          "probability": 0.7888206243515015
+        },
+        {
+          "word": " and",
+          "start": 59.94,
+          "end": 60.3,
+          "probability": 0.981280505657196
+        },
+        {
+          "word": " 3",
+          "start": 60.3,
+          "end": 60.62,
+          "probability": 0.9977836012840271
+        },
+        {
+          "word": ".5",
+          "start": 60.62,
+          "end": 61.24,
+          "probability": 0.9957082867622375
+        },
+        {
+          "word": "%",
+          "start": 61.24,
+          "end": 61.7,
+          "probability": 0.9540725946426392
+        },
+        {
+          "word": " this",
+          "start": 61.7,
+          "end": 61.98,
+          "probability": 0.9948587417602539
+        },
+        {
+          "word": " week,",
+          "start": 61.98,
+          "end": 62.56,
+          "probability": 0.9971965551376343
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5432,
+      "start": 63.12,
+      "end": 69.04,
+      "text": " recent successful test flights suggest increasing confidence in multiple space missions.",
+      "tokens": [
+        50786,
+        5162,
+        4406,
+        1500,
+        21089,
+        3402,
+        5662,
+        6687,
+        294,
+        3866,
+        1901,
+        13744,
+        13,
+        51142
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19917455315589905,
+      "compression_ratio": 1.4724770642201834,
+      "no_speech_prob": 0.0642758309841156,
+      "words": [
+        {
+          "word": " recent",
+          "start": 63.12,
+          "end": 63.34,
+          "probability": 0.9788616895675659
+        },
+        {
+          "word": " successful",
+          "start": 63.34,
+          "end": 63.94,
+          "probability": 0.9859742522239685
+        },
+        {
+          "word": " test",
+          "start": 63.94,
+          "end": 64.4,
+          "probability": 0.9910464882850647
+        },
+        {
+          "word": " flights",
+          "start": 64.4,
+          "end": 64.82,
+          "probability": 0.9903988838195801
+        },
+        {
+          "word": " suggest",
+          "start": 64.82,
+          "end": 65.44,
+          "probability": 0.9703344106674194
+        },
+        {
+          "word": " increasing",
+          "start": 65.44,
+          "end": 66.2,
+          "probability": 0.9690852165222168
+        },
+        {
+          "word": " confidence",
+          "start": 66.2,
+          "end": 66.88,
+          "probability": 0.9928856492042542
+        },
+        {
+          "word": " in",
+          "start": 66.88,
+          "end": 67.48,
+          "probability": 0.9951422214508057
+        },
+        {
+          "word": " multiple",
+          "start": 67.48,
+          "end": 67.92,
+          "probability": 0.998823344707489
+        },
+        {
+          "word": " space",
+          "start": 67.92,
+          "end": 68.34,
+          "probability": 0.9166445136070251
+        },
+        {
+          "word": " missions.",
+          "start": 68.34,
+          "end": 69.04,
+          "probability": 0.9951436519622803
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5432,
+      "start": 69.9,
+      "end": 76.06,
+      "text": " These markets demonstrate how quickly public sentiment and technological landscapes can shift,",
+      "tokens": [
+        51142,
+        1981,
+        8383,
+        11698,
+        577,
+        2661,
+        1908,
+        16149,
+        293,
+        18439,
+        29822,
+        393,
+        5513,
+        11,
+        51468
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19917455315589905,
+      "compression_ratio": 1.4724770642201834,
+      "no_speech_prob": 0.0642758309841156,
+      "words": [
+        {
+          "word": " These",
+          "start": 69.9,
+          "end": 70.22,
+          "probability": 0.9943382143974304
+        },
+        {
+          "word": " markets",
+          "start": 70.22,
+          "end": 70.74,
+          "probability": 0.9980680346488953
+        },
+        {
+          "word": " demonstrate",
+          "start": 70.74,
+          "end": 71.4,
+          "probability": 0.9790887236595154
+        },
+        {
+          "word": " how",
+          "start": 71.4,
+          "end": 71.96,
+          "probability": 0.997798502445221
+        },
+        {
+          "word": " quickly",
+          "start": 71.96,
+          "end": 72.34,
+          "probability": 0.9851562976837158
+        },
+        {
+          "word": " public",
+          "start": 72.34,
+          "end": 72.78,
+          "probability": 0.9828596711158752
+        },
+        {
+          "word": " sentiment",
+          "start": 72.78,
+          "end": 73.36,
+          "probability": 0.9926776885986328
+        },
+        {
+          "word": " and",
+          "start": 73.36,
+          "end": 73.76,
+          "probability": 0.996616780757904
+        },
+        {
+          "word": " technological",
+          "start": 73.76,
+          "end": 74.46,
+          "probability": 0.9948940277099609
+        },
+        {
+          "word": " landscapes",
+          "start": 74.46,
+          "end": 75.1,
+          "probability": 0.9927833080291748
+        },
+        {
+          "word": " can",
+          "start": 75.1,
+          "end": 75.54,
+          "probability": 0.993584930896759
+        },
+        {
+          "word": " shift,",
+          "start": 75.54,
+          "end": 76.06,
+          "probability": 0.9977107048034668
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 5432,
+      "start": 76.66,
+      "end": 80.56,
+      "text": " reflecting the dynamic nature of our rapidly changing world.",
+      "tokens": [
+        51468,
+        23543,
+        264,
+        8546,
+        3687,
+        295,
+        527,
+        12910,
+        4473,
+        1002,
+        13,
+        51682
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19917455315589905,
+      "compression_ratio": 1.4724770642201834,
+      "no_speech_prob": 0.0642758309841156,
+      "words": [
+        {
+          "word": " reflecting",
+          "start": 76.66,
+          "end": 76.92,
+          "probability": 0.9871575236320496
+        },
+        {
+          "word": " the",
+          "start": 76.92,
+          "end": 77.3,
+          "probability": 0.9980317950248718
+        },
+        {
+          "word": " dynamic",
+          "start": 77.3,
+          "end": 77.78,
+          "probability": 0.9956786036491394
+        },
+        {
+          "word": " nature",
+          "start": 77.78,
+          "end": 78.38,
+          "probability": 0.998960018157959
+        },
+        {
+          "word": " of",
+          "start": 78.38,
+          "end": 78.7,
+          "probability": 0.9989546537399292
+        },
+        {
+          "word": " our",
+          "start": 78.7,
+          "end": 78.94,
+          "probability": 0.9917940497398376
+        },
+        {
+          "word": " rapidly",
+          "start": 78.94,
+          "end": 79.38,
+          "probability": 0.9956823587417603
+        },
+        {
+          "word": " changing",
+          "start": 79.38,
+          "end": 79.96,
+          "probability": 0.8495717644691467
+        },
+        {
+          "word": " world.",
+          "start": 79.96,
+          "end": 80.56,
+          "probability": 0.9970773458480835
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
